@@ -1,1 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="particles-config.js"></script>
 
+
+</head>
+<body>
+    <canvas id="stars"></canvas>
+    <nav class="navbar">
+        <div class="logo">Portfolio Apriana</div>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+    </nav>
+
+    <!-- HOME SECTION -->
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+    <div class="overlay">
+    <div class="home-content">
+        <h1>Hello,I'm <span>Apriana</span></h1>
+        <p>Web Developer & UI Designer</p>
+        <div class="buttons">
+    <a href="#contact" class="btn">Hire Me</a>
+    <a href="#about" class="btn outline">Let's Talk</a>
+       </div>
+    </div>
+  </div>
+</section>
+ 
+      <!--ABOUT SECTION-->
+  <section id="about" class="about">
+    <div class="about-img">
+        <img src="about.jpg" class="About Me" />
+    </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me!</span></h2>
+        <h3>Apriana Sitompul</h3>
+        <p>
+           a Computer Science student at Universitas HKBP Nommensen Pematangsiantar and a Frontend Developer with a passion for UI/UX design.
+           I'm eager to learn, grow, and create meaningful digital experiences.
+
+        <i>Bagi saya, menjadi manusia biasa bukanlah batasan, tetapi titik awal untuk menciptakan sesuatu yang bermakna.</i>
+        </p>
+        <a href="#projects" class="btn">See My Work</a>
+      </div>
+  </section>
+  
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="education">
+    <h2 class="heading">My <span>Education</span></h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon"></div>
+        <div class="timeline-content">
+          <span class="date">2023-sekarang</span>
+          <h3>Universitas HKBP Nommensen Pematangsiantar </h3>
+          <p>S1 Ilmu Komputer</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"></div>
+        <div class="timeline-content">
+          <span class="date">2019-2023</span>
+          <h3>SMA Negeri 1 Pematangsiantar </h3>
+            <p>Ilmu Pengetahuan Alam</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"></div>
+        <div class="timeline-content">
+          <span class="date">2017-2019</span>
+          <h3>SMP Negeri 3 Pematangsiantar </h3>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"></div>
+        <div class="timeline-content">
+          <span class="date">2012-2017</span>
+          <h3>SD Cinta Rakyat 2 Pematangsiantar </h3>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"></div>
+        <div class="timeline-content">
+          <span class="date">2011-2012</span>
+          <h3>TK Bintang Timur Pematangsiantar </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILL SECTION -->
+  <section id="skills" class="skills">
+    <h2 class="heading">My<span> Skill</span></h2>
+  
+    <div class="skill-bar">
+      <div class="label">
+        <span>HTML & CSS</span>
+        <span class="percent">85%</span>
+      </div>
+      <div class="bar">
+        <div class="bar-fill html-css"></div>
+      </div>
+    </div>
+  
+    <div class="skill-bar">
+      <div class="label">
+        <span>JavaScript</span>
+        <span class="percent">60%</span>
+      </div>
+      <div class="bar">
+        <div class="bar-fill javascript"></div>
+      </div>
+    </div>
+  
+    <div class="skill-bar">
+      <div class="label">
+        <span>Desain Grafis</span>
+        <span class="percent">70%</span>
+      </div>
+      <div class="bar">
+        <div class="bar-fill desain-grafis"></div>
+      </div>
+    </div>
+  
+    <div class="skill-bar">
+      <div class="label">
+        <span>Kerja Sama</span>
+        <span class="percent">87%</span>
+      </div>
+      <div class="bar">
+        <div class="bar-fill kerja-sama"></div>
+      </div>
+    </div>
+
+    <div class="skill-bar">
+        <div class="label">
+          <span>Kreatif</span>
+          <span class="percent">86%</span>
+        </div>
+        <div class="bar">
+          <div class="bar-fill kreatif"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <div class="label">
+          <span>Organisasi</span>
+          <span class="percent">90%</span>
+        </div>
+        <div class="bar">
+          <div class="bar-fill organisasi"></div>
+        </div>
+      </div>
+  
+  </section>
+  
+  <!--PROJECT SECTION-->
+    <section class="projects" id="projects">
+        <h2 class="heading">What<span> I Do</span></h2>
+        <div class="project-content">
+          <div class="project">
+              <h3>Website Absensi</h3>
+              <p>Membuat website absensi menggunakan HTML untuk mencatat kehadiran secara digital.</p>
+              <a href="file:///C:/Pemograman%20Web/Project%20Kelas%20IK3/absensi.html" target="_blank" class="project-link">View Project</a>
+          </div>
+          <div class="project">
+              <h3>Portofolio Website Sederhana</h3>
+              <p>Website portofolio sederhana yang dibuat menggunakan HTML dan CSS, berisi informasi pribadi,skill,project dan riwayat pendidikan.</p>
+              <a href="file:///C:/Pemograman%20Web/Pertemuan%204/indeks.html" target="_blank" class="project-link">View Project</a>
+          </div>
+          <div class="project">
+            <h3>Website Semantic</h3>
+            <p>Website portofolio dibuat menggunakan HTML dan CSS, berisi informasi pribadi dan motivasi.</p>
+            <a href="file:///C:/Pemograman%20Web/semantic.html" target="_blank" class="project-link">View Project</a>
+        </div>
+      </div>
+    </section>
+
+  
+<!--CONTACT SECTION-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://formspree.io/f/{your-id}" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!--FOOTER SECTION-->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Aprianastpl. All rights reserved.</p>
+        <div class="sosial-icons">
+          <a href="https://www.instagram.com/apriistpl" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://github.com/apriana" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/aprianasitompul" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.fa-facebook.com/aprianasitompul" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      const canvas = document.getElementById('stars');
+      const ctx = canvas.getContext('2d');
+      let stars = [];
+
+      function initStars() {
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+          stars = [];
+          for (let i = 0; i < 100; i++) {
+              stars.push({
+                  x: Math.random() * canvas.width,
+                  y: Math.random() * canvas.height,
+                  radius: Math.random() * 1.5,
+                  speed: Math.random() * 0.5
+              });
+          }
+      }
+
+      function drawStars() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          ctx.fillStyle = "white";
+          for (let star of stars) {
+              ctx.beginPath();
+              ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+              ctx.fill();
+              star.y += star.speed;
+              if (star.y > canvas.height) {
+                  star.y = 0;
+                  star.x = Math.random() * canvas.width;
+              }
+          }
+          requestAnimationFrame(drawStars);
+      }
+
+      window.addEventListener('resize', initStars);
+      initStars();
+      drawStars();
+    </script>
+
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navList = document.querySelector('.nav-list');
+  
+    menuToggle.addEventListener('click', () => {
+      navList.classList.toggle('show');
+    });
+  </script>
+  
+</body>
+</html>
